@@ -1,0 +1,19 @@
+<!-- Main page shell; JavaScript fills the app area with the current screen. -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#173d38" />
+  <meta name="description" content="A calmer, clearer way to find your next step. CampusPath connects students, employers, and placement teams." />
+  <title>CampusPath — Your next step starts here</title>
+  <!-- Load the visual theme and the browser-side app. -->
+  <link rel="stylesheet" href="styles.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <!-- The app and notification regions are updated by static/app.js. -->
+  <div id="app" aria-live="polite"></div>
+  <div id="toast-region" class="toast-region" aria-live="assertive"></div>
+</body>
+</html>
